@@ -1,0 +1,201 @@
+* {
+    letter-spacing: 0!important;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin: .75em 0 .25em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+video {
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+}
+
+.app{
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.our-story-card {
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.animation-card-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.our-story-card-text {
+    margin: -5% 0;
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    width: 52%;
+    z-index:3;
+    font-size: 1.625rem;
+}
+
+.our-story-card-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+.our-story-card-subtitle {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.our-story-card-img-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%;
+}
+
+.our-story-card-animation-container {
+    margin: -10% -5% -5% 0;
+    overflow: hidden;
+    position: relative;
+    min-height: 100px;
+    width: 100%;
+}
+
+.our-story-card-img {
+    position: relative;
+    z-index: 2;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+.our-story-card-animation {
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.our-story-card-video {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+}
+
+.our-story-card-animation-image{
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 0 1em 0 0;
+}
+
+.our-story-card-animation-download {
+    padding: 0.5em 0.75em;
+    align-items: center;
+    background: #000;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    display: flex;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 15em;
+    padding: 0.25em 0.65em;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 60%;
+    z-index: 99;
+}
+
+.our-story-card-animation-text {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0.3em 0;
+}
+
+.text-0 {
+    font-size: 1em;
+    font-weight: 600;
+
+}
+
+.text-1 {
+    color: #0071eb;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+.img-download {
+    height: 4.5em;
+}
+
+.our-story-card-animation-custom-download {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    content: "";
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+    height: 3.75em;
+}
+
+.our-story-card-animation-container-everywhere {
+    margin: -5% -10% 0 0;
+    overflow: hidden;
+    position: relative;
+    min-height: 100px;
+    width: 100%;
+}
+
+.our-story-card-animation-everywhere {
+    height: 100%;
+    left: 50%;
+    max-height: 47%;
+    max-width: 63%;
+    position: absolute;
+    top: 34%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
